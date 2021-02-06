@@ -1,0 +1,522 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" href="css/sky-forms.css" type="text/css">
+<link rel="stylesheet" href="js/owl.carousel/assets/owl.carousel.css">
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--跳出訊息-->
+
+<div   class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div  class="modal-content">
+      <div class="btn-close">
+        <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></button>
+      </div>
+      <div class="modal-body">
+        <div class=" modal-word">
+          <div class="sign-box-pop">
+            <h4> <span>已有帳號！登入會員</span> </h4>
+            <form id="sky-form" class="sky-form">
+              <fieldset>
+                <section>
+                  <div class="row">
+                    <label class="label col col-2">帳號</label>
+                    <div class="col col-10">
+                      <label class="input">
+                        <input type="email" name="email" placeholder="請輸入您註冊時Email">
+                      </label>
+                    </div>
+                  </div>
+                </section>
+                <section>
+                  <div class="row">
+                    <label class="label col col-2">密碼</label>
+                    <div class="col col-10">
+                      <label class="input">
+                        <input type="password" name="password" placeholder="請輸入密碼" id="password">
+                      </label>
+                    </div>
+                  </div>
+                </section>
+                <section class="text-right"> <a href="" target="_blank" class="f-pass"><i class="fa fa-question-circle"></i> 忘記密碼</a> </section>
+                <section>
+                  <div class="error_msg text-danger"> Default error message </div>
+                </section>
+              </fieldset>
+              <div class="text-center"> <a href="step2.html" class="btn-b">登入</a> </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--end跳出訊息-->
+
+<header class="h-normal navbar-fixed-top">
+  <nav class="navbar  " role="navigation">
+    <div class="container"> <a class="navbar-brand" href="#"> <img src="images/logo_s.png" > </a> 
+      
+      <!--登入前-->
+      <div class="dropdown nn-right"> <a id=""  href="#" class="dropdown-toggle btn-top" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false"> 登入 </a>
+        <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="drop3">
+          <li role="presentation"><a role="menuitem"   tabindex="-1" href="#buy">馬上加入</a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation"><a role="menuitem"   tabindex="-1" href="" data-toggle="modal" data-target="#myModal">會員登入</a></li>
+        </ul>
+      </div>
+      
+      <!--end登入前--> 
+      
+    </div>
+  </nav>
+</header>
+<div class="new-wrapper"> 
+  <!--時間切換-->
+  
+  <div class=" time-box-2 new-top">
+    <div class="container">
+      <div class="row"> 
+        
+        <!--選方案-->
+        <div class="col-md-5">
+          <form class="sky-form">
+            <section class="clearfix" >
+              <label class="select op" >
+                <select name="">
+                  <option value="1">台北 樂聲影城</option>
+                  <option value="2">高雄 奧斯卡數位影城</option>
+                  <option value="3">台北 喜樂影城</option>
+                </select>
+                <i></i> </label>
+              <label class="select op op_2" >
+                <select name="">
+                  <option value="1">全部院線通</option>
+                  <option value="2">韓國院線通</option>
+                  <option value="3">暗光鳥院線通</option>
+                </select>
+                <i></i> </label>
+            </section>
+          </form>
+        </div>
+        <!--end選方案-->
+        
+        <div class="col-md-7">
+          <div class="cd2-box">
+            <div class="owl-carousel" >
+              <div class="item"> <a href="#one">
+                <div class="cd2_main " data-date="2016-10-04">
+                  <month>10</month>
+                  <line>/</line>
+                  <week>(二)</week>
+                  <day>04</day>
+                </div>
+                </a> </div>
+              <div class="item"> <a href="#two">
+                <div class="cd2_main gary" data-date="2016-10-05">
+                  <month>10</month>
+                  <line>/</line>
+                  <week>(三)</week>
+                  <day>05</day>
+                </div>
+                </a> </div>
+              <div class="item"> <a href="#one">
+                <div class="cd2_main gary" data-date="2016-10-06">
+                  <month>10</month>
+                  <line>/</line>
+                  <week>(四)</week>
+                  <day>06</day>
+                </div>
+                </a> </div>
+              <div class="item"> <a href="#two">
+                <div class="cd2_main gary" data-date="2016-10-06">
+                  <month>10</month>
+                  <line>/</line>
+                  <week>(五)</week>
+                  <day>07</day>
+                </div>
+                </a> </div>
+              <div class="item"> <a href="#one">
+                <div class="cd2_main gary" data-date="2016-10-06">
+                  <month>10</month>
+                  <line>/</line>
+                  <week>(六)</week>
+                  <day>08</day>
+                </div>
+                </a> </div>
+              <div class="item"> <a href="#one">
+                <div class="cd2_main gary" data-date="2016-10-06">
+                  <month>10</month>
+                  <line>/</line>
+                  <week>(日)</week>
+                  <day>09</day>
+                </div>
+                </a> </div>
+              <div class="item"> <a href="#one">
+                <div class="cd2_main gary" data-date="2016-10-06">
+                  <month>10</month>
+                  <line>/</line>
+                  <week>(一)</week>
+                  <day>10</day>
+                </div>
+                </a> </div>
+              <div class="item"> <a href="#one">
+                <div class="cd2_main gary" data-date="2016-10-06">
+                  <month>10</month>
+                  <line>/</line>
+                  <week>(一)</week>
+                  <day>10</day>
+                </div>
+                </a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--end時間切換-->
+  
+  <div class=" m-o-box">
+    <h1> 線上劃位，請選擇電影、場次 </h1>
+    <div class="owl-carousel" >
+      <div class="item" data-hash="one">
+        <div class="container">
+          <div class="m-o">
+            <div class="row">
+              <div class="col-md-3"> <a href="content2.html"> <img src="images/default (1).jpg" width="275" height="405"> </a></div>
+              <div class="col-md-9 m-r">
+                <h2>熔爐 <span> KORENA </span></h2>
+                <p> ★《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕
+                  ★ 改編自作家孔枝泳同名小說，令人痛心的真人實事
+                  
+                  ★ 蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄
+                  
+                  ★ 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年</p>
+                <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                <h3>可訂位場次</h3>
+                <div class="theater-row">
+                  <div class="theater"><span>高雄</span>奧斯卡數位影城 </div>
+                  <a href="">
+                  <div  class="booking">12:00 </div>
+                  </a> <a href="">
+                  <div  class="booking"> 15:00 </div>
+                  </a> <a href="">
+                  <div  class="booking"> 16:30 </div>
+                  </a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="m-o">
+            <div class="row">
+              <div class="col-md-3"> <a href="content2.html"> <img src="images/default (1).jpg" width="275" height="405"> </a></div>
+              <div class="col-md-9 m-r">
+                <h2>熔爐 <span> AfterDark </span> </h2>
+                <p> ★《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕
+                  ★ 改編自作家孔枝泳同名小說，令人痛心的真人實事
+                  
+                  ★ 蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄
+                  
+                  ★ 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年</p>
+                <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                <h3>可訂位場次</h3>
+                <div class="theater-row">
+                  <div class="theater"><span>台北</span>樂聲影城 </div>
+                  <a href="">
+                  <div  class="booking">12:00 </div>
+                  </a> <a href="">
+                  <div  class="booking"> 15:00 </div>
+                  </a> <a href="">
+                  <div  class="booking"> 16:30 </div>
+                  </a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="m-o">
+            <div class="row">
+              <div class="col-md-3"> <a href="content2.html"> <img src="images/default (1).jpg" width="275" height="405"> </a></div>
+              <div class="col-md-9 m-r">
+                <h2>熔爐 </h2>
+                <p> ★《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕
+                  ★ 改編自作家孔枝泳同名小說，令人痛心的真人實事
+                  
+                  ★ 蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄
+                  
+                  ★ 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年</p>
+                <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                <h3>可訂位場次</h3>
+                <div class="theater-row">
+                  <div class="theater"><span>台北</span>樂聲影城 </div>
+                  <a href="">
+                  <div  class="booking">12:00 </div>
+                  </a> <a href="">
+                  <div  class="booking"> 15:00 </div>
+                  </a> <a href="">
+                  <div  class="booking"> 16:30 </div>
+                  </a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="m-o">
+            <div class="row">
+              <div class="col-md-3"> <a href="content2.html"> <img src="images/default (1).jpg" width="275" height="405"> </a></div>
+              <div class="col-md-9 m-r">
+                <h2>熔爐 </h2>
+                <p> ★《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕
+                  ★ 改編自作家孔枝泳同名小說，令人痛心的真人實事
+                  
+                  ★ 蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄
+                  
+                  ★ 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年</p>
+                <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                <h3>可訂位場次</h3>
+                <div class="theater-row">
+                  <div class="theater"><span>台北</span>樂聲影城 </div>
+                  <a href="">
+                  <div  class="booking">12:00 </div>
+                  </a> <a href="">
+                  <div  class="booking"> 15:00 </div>
+                  </a> <a href="">
+                  <div  class="booking"> 16:30 </div>
+                  </a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="m-o">
+            <div class="row">
+              <div class="col-md-3"> <a href="content2.html"> <img src="images/default (1).jpg" width="275" height="405"> </a></div>
+              <div class="col-md-9 m-r">
+                <h2>熔爐 </h2>
+                <p> ★《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕
+                  ★ 改編自作家孔枝泳同名小說，令人痛心的真人實事
+                  
+                  ★ 蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄
+                  
+                  ★ 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年</p>
+                <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                <h3>可訂位場次</h3>
+                <div class="theater-row">
+                  <div class="theater"><span>台北</span>樂聲影城 </div>
+                  <a href="">
+                  <div  class="booking">12:00 </div>
+                  </a> <a href="">
+                  <div  class="booking"> 15:00 </div>
+                  </a> <a href="">
+                  <div  class="booking"> 16:30 </div>
+                  </a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="m-o">
+            <div class="row">
+              <div class="col-md-3"> <a href="content2.html"> <img src="images/default (1).jpg" width="275" height="405"> </a></div>
+              <div class="col-md-9 m-r">
+                <h2>熔爐 </h2>
+                <p> ★《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕
+                  ★ 改編自作家孔枝泳同名小說，令人痛心的真人實事
+                  
+                  ★ 蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄
+                  
+                  ★ 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年</p>
+                <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                <h3>可訂位場次</h3>
+                <div class="theater-row">
+                  <div class="theater"><span>台北</span>樂聲影城 </div>
+                  <a href="">
+                  <div  class="booking">12:00 </div>
+                  </a> <a href="">
+                  <div  class="booking"> 15:00 </div>
+                  </a> <a href="">
+                  <div  class="booking"> 16:30 </div>
+                  </a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="item" data-hash="two">
+        <div class="container">
+          <div class="m-o">
+            <div class="row">
+              <div class="col-md-3"> <a href="content2.html"> <img src="images/default (1).jpg" width="275" height="405"> </a></div>
+              <div class="col-md-9 m-r">
+                <h2>熔爐 </h2>
+                <p> ★《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕
+                  ★ 改編自作家孔枝泳同名小說，令人痛心的真人實事
+                  
+                  ★ 蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄
+                  
+                  ★ 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年</p>
+                <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                <h3>可訂位場次</h3>
+                <div class="theater-row">
+                  <div class="theater"><span>台北</span>樂聲影城 </div>
+                  <a href="">
+                  <div  class="booking">12:00 </div>
+                  </a> <a href="">
+                  <div  class="booking"> 15:00 </div>
+                  </a> <a href="">
+                  <div  class="booking"> 16:30 </div>
+                  </a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="m-o">
+            <div class="row">
+              <div class="col-md-3"> <a href="content2.html"> <img src="images/default (1).jpg" width="275" height="405"> </a></div>
+              <div class="col-md-9 m-r">
+                <h2>熔爐 </h2>
+                <p> ★《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕
+                  ★ 改編自作家孔枝泳同名小說，令人痛心的真人實事
+                  
+                  ★ 蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄
+                  
+                  ★ 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年</p>
+                <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                <h3>可訂位場次</h3>
+                <div class="theater-row">
+                  <div class="theater"><span>台北</span>樂聲影城 </div>
+                  <a href="">
+                  <div  class="booking">12:00 </div>
+                  </a> <a href="">
+                  <div  class="booking"> 15:00 </div>
+                  </a> <a href="">
+                  <div  class="booking"> 16:30 </div>
+                  </a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="m-o">
+            <div class="row">
+              <div class="col-md-3"> <a href="content2.html"> <img src="images/default (1).jpg" width="275" height="405"> </a></div>
+              <div class="col-md-9 m-r">
+                <h2>熔爐 </h2>
+                <p> ★《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕
+                  ★ 改編自作家孔枝泳同名小說，令人痛心的真人實事
+                  
+                  ★ 蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄
+                  
+                  ★ 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年</p>
+                <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                <h3>可訂位場次</h3>
+                <div class="theater-row">
+                  <div class="theater"><span>台北</span>樂聲影城 </div>
+                  <a href="">
+                  <div  class="booking">12:00 </div>
+                  </a> <a href="">
+                  <div  class="booking"> 15:00 </div>
+                  </a> <a href="">
+                  <div  class="booking"> 16:30 </div>
+                  </a> </div>
+              </div>
+            </div>
+          </div>
+          <div class="m-o">
+            <div class="row">
+              <div class="col-md-3"> <a href="content2.html"> <img src="images/default (1).jpg" width="275" height="405"> </a></div>
+              <div class="col-md-9 m-r">
+                <h2>熔爐 </h2>
+                <p> ★《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕
+                  ★ 改編自作家孔枝泳同名小說，令人痛心的真人實事
+                  
+                  ★ 蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄
+                  
+                  ★ 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年</p>
+                <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                <h3>可訂位場次</h3>
+                <div class="theater-row">
+                  <div class="theater"><span>台北</span>樂聲影城 </div>
+                  <a href="">
+                  <div  class="booking">12:00 </div>
+                  </a> <a href="">
+                  <div  class="booking"> 15:00 </div>
+                  </a> <a href="">
+                  <div  class="booking"> 16:30 </div>
+                  </a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="container">
+    <div class="f-left"> <a href="terms.html" class=""> 隱私權政策</a> <a href="terms2.html" class="">服務條款</a> <span> <a href="member.html"> 個人帳戶</a> <a href="faq.html">常見問題</a> <a href="contact.html">連絡我們</a> </span> </div>
+    <div class="f-right">Copyright © 2016 KINOPASS All rights reserved.</div>
+  </div>
+</footer>
+
+<!--Back to top--> 
+<a href="" class="scrollup"><i class="fa fa-chevron-circle-up"></i></a> 
+
+<!--Javascript Plugin--> 
+<script src="js/totop.js" type="text/javascript"></script> 
+<script src="js/owl.carousel/owl.carousel.min.js" type="text/javascript"></script> 
+
+<!--Owl-carousel Call the plugin--> 
+<script>
+	 jQuery(window).on('load', function(){
+            $('.m-o-box .owl-carousel').owlCarousel({
+        items:1,
+			//animateOut: 'fadeOut',
+				//animateIn: 'fadeIn',
+        
+		autoHeight:true,
+		loop:false,
+        center:true,
+		touchDrag:false,
+		mouseDrag:false,
+      margin:10,
+        URLhashListener:true,
+        autoplayHoverPause:true,
+		
+        startPosition: 'URLHash'
+    });
+ $('.time-box-2 .owl-carousel').owlCarousel({
+       items: 6,
+	    margin:10,
+      responsiveClass:true,
+   responsive:{
+		310:{
+            items:3,
+			margin:10,
+        },
+		360:{
+            items:4,
+			margin:30,
+        },
+		
+		
+		400:{
+            items:4,
+			margin:10,
+        },
+        1000:{
+            items:6,
+        }
+    }         
+  
+    });
+	    });
+	
+    </script>
+</body>
+</html>

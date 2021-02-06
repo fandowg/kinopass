@@ -1,0 +1,368 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>KINOPASS 院線通 </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="shortcut icon" href="./images/favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css/sky-forms.css" type="text/css">
+  <link rel="stylesheet" href="js/owl.carousel/assets/owl.carousel.css">
+  <link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/style.css?0831" type="text/css">
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+  <!--跳出訊息-->
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="btn-close">
+          <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></button>
+        </div>
+        <div class="modal-body">
+          <div class=" modal-word">
+            <div class="sign-box-pop">
+              <h4> <span>已有帳號！登入會員</span> </h4>
+              <form id="sky-form" class="sky-form">
+                <fieldset>
+                  <section>
+                    <div class="row">
+                      <label class="label col col-2">帳號</label>
+                      <div class="col col-10">
+                        <label class="input">
+                          <input type="email" name="email" placeholder="請輸入您註冊時Email">
+                        </label>
+                      </div>
+                    </div>
+                  </section>
+                  <section>
+                    <div class="row">
+                      <label class="label col col-2">密碼</label>
+                      <div class="col col-10">
+                        <label class="input">
+                          <input type="password" name="password" placeholder="請輸入密碼" id="password">
+                        </label>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="text-right"> <a href="" target="_blank" class="f-pass"><i class="fa fa-question-circle"></i> 忘記密碼</a> </section>
+                  <section>
+                    <div class="error_msg text-danger"> Default error message </div>
+                  </section>
+                </fieldset>
+                <div class="text-center"> <a href="" class="btn-b">登入</a> </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--end跳出訊息-->
+
+  <div class="full-top ">
+    <div class="full-top-m"> </div>
+    <div class="full-top-inner">
+      <header>
+        <nav class="navbar " role="navigation">
+
+          <!--a class="navbar-brand" href="#">   </a-->
+
+          <!--新選單-->
+          <div class="container">
+
+            <!--未登入-->
+            <div class="new-right dropdown"> <a id="" href="#" class="dropdown-toggle btn-top" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">登入 </a>
+              <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="drop3">
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="#buy">馬上加入</a></li>
+                <li role="presentation" class="divider"></li>
+                <li role="presentation"><a role="menuitem" tabindex="-1" href="" data-toggle="modal" data-target="#myModal">會員登入</a></li>
+              </ul>
+            </div>
+            <!--end未登入-->
+
+          </div>
+
+          <!--end新選單-->
+
+        </nav>
+      </header>
+      <h1 class="wow fadeIn" data-wow-duration="1.5s"><img src="images/logo-big.png"> 院線通</h1>
+      <p class="wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.4s"> 最夯強檔電影　一票看到底 </p>
+      <a class="join-btn wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.8s" href="#buy"> 立刻加入 </a>
+    </div>
+
+    <!--介紹頁-->
+
+    <div class=" box1">
+      <div class="container">
+        <h1 class="wow fadeIn">顛覆你的電影院經驗 </h1>
+        <p class="wow fadeIn"> 不只是一部電影，而是一場精彩旅程，「KINOPASS院線通」的強檔鉅獻，您都可以全天候不限次數盡興觀賞，自由徜徉在電影院的魔幻空間。</p>
+        <div class="row">
+          <div class="col-md-4  wow fadeIn">
+            <div class="new-spec"> <i class="fa fa-check-circle" aria-hidden="true"></i>
+              <h3> 最多選擇 </h3>
+              <p> 白晝精彩x午夜刺激</p>
+            </div>
+          </div>
+          <div class="col-md-4  wow fadeIn">
+            <div class="new-spec"> <i class="fa fa-film" aria-hidden="true"></i>
+              <h3>最佳強檔 </h3>
+              <p>鉅片首映x經典再現</p>
+            </div>
+          </div>
+          <div class="col-md-4  wow fadeIn">
+            <div class="new-spec"> <i class="fa fa-gift" aria-hidden="true"></i>
+              <h3> 最狂優惠 </h3>
+              <p>驚爆票價x立刻享有</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=" box2 box2-b">
+      <div class="container">
+        <h1><img src="images/logo_b_w.png" width="257" height="45">院線通 </h1>
+        <p>包月院線通，啟動你30天的電影狂歡節</p>
+        <div class="box2-inner">
+          <div class="work-list work-list-four">
+            <div class="work-img-box">
+              <div class="work-icon"> 1 </div>
+              <div class="work-img"> <img src="images/b_step1_b.jpg"> </div>
+            </div>
+            <h4>準備動作：線上購買</h4>
+            <p>您可以在「KINOPASS院線通」官網或APP選擇指定戲院，線上付費後開通會籍。</p>
+          </div>
+          <div class="work-list work-list-four">
+            <div class="work-img-box">
+              <div class="work-icon"> 2 </div>
+              <div class="work-img"> <img src="images/b_step2_b.jpg"> </div>
+            </div>
+            <h4> 展開旅程：線上劃位</h4>
+            <p>在「KINOPASS院線通」官網或APP選擇欲觀賞的電影場次劃位，獲得序號。</p>
+          </div>
+          <div class="work-list work-list-four">
+            <div class="work-img-box">
+              <div class="work-icon"> 3 </div>
+              <div class="work-img"> <img src="images/b_step3_b.jpg"> </div>
+            </div>
+            <h4> 親蒞影城：兌換電影票</h4>
+            <p> 在電影開演前30分鐘，憑序號到影城櫃台兌換電影票，準備入場 </p>
+          </div>
+          <div class="work-list work-list-four">
+            <div class="work-img-box">
+              <div class="work-icon"> 4 </div>
+              <div class="work-img"> <img src="images/step4.jpg"> </div>
+            </div>
+            <h4> 享受電影</h4>
+            <p> 一部接一部，享受電影。 </p>
+          </div>
+        </div>
+        <a href="time0901.html" class=" join-btn"> 查看電影時刻表</a>
+      </div>
+    </div>
+    <div class=" box4">
+      <div class="container">
+        <h1>強檔獻映</h1>
+        <div class=" owl-carousel">
+          <div class="item">
+            <div class="fe-movie">
+              <div class="fe-img"> <img src="images/01/main.jpg" width="275" height="405">
+                <div class="fe-play"> <a href="" data-toggle="modal" data-target="#play"> <i class="fa fa-play-circle" aria-hidden="true"></i> </a>
+                  <p><a href="content2.html"> 影片資訊</a></p>
+                </div>
+              </div>
+              <div class="fe-btn-box">
+                <h2> 銀魂</h2>
+                <p> 上映日期：07/15</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="fe-movie">
+              <div class="fe-img"> <img src="images/02/main.jpg" width="275" height="405">
+                <div class="fe-play"> <a href="" data-toggle="modal" data-target="#play"> <i class="fa fa-play-circle" aria-hidden="true"></i> </a>
+                  <p><a href="content2.html"> 影片資訊</a></p>
+                </div>
+              </div>
+              <div class="fe-btn-box">
+                <h2> 熔爐</h2>
+                <p> 上映日期：11/11</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="fe-movie">
+              <div class="fe-img"> <img src="images/03/main.jpg" width="275" height="405">
+                <div class="fe-play"> <a href="" data-toggle="modal" data-target="#play"> <i class="fa fa-play-circle" aria-hidden="true"></i> </a>
+                  <p><a href="content2.html"> 影片資訊</a></p>
+                </div>
+              </div>
+              <div class="fe-btn-box">
+                <h2> 軍艦島</h2>
+                <p> 上映日期：08/18</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="fe-movie">
+              <div class="fe-img"> <img src="images/04/main.jpg" width="275" height="405">
+                <div class="fe-play"> <a href="" data-toggle="modal" data-target="#play"> <i class="fa fa-play-circle" aria-hidden="true"></i> </a>
+                  <p><a href="content2.html"> 影片資訊</a></p>
+                </div>
+              </div>
+              <div class="fe-btn-box">
+                <h2> 屍速列車</h2>
+                <p> 上映日期：09/02</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="fe-movie">
+              <div class="fe-img"><img src="images/05/main.jpg" width="275" height="405">
+                <div class="fe-play"> <a href="" data-toggle="modal" data-target="#play"> <i class="fa fa-play-circle" aria-hidden="true"></i> </a>
+                  <p><a href="content2.html"> 影片資訊</a></p>
+                </div>
+              </div>
+              <div class="fe-btn-box">
+                <h2> 我和我的冠軍女兒</h2>
+                <p> 上映日期：03/24</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="fe-movie">
+              <div class="fe-img"> <img src="images/06/main.jpg" width="275" height="405">
+                <div class="fe-play"> <a href="" data-toggle="modal" data-target="#play"> <i class="fa fa-play-circle" aria-hidden="true"></i> </a>
+                  <p><a href="content2.html"> 影片資訊</a></p>
+                </div>
+              </div>
+              <div class="fe-btn-box">
+                <h2> 我只是個計程車司機</h2>
+                <p> 上映日期：09/08</p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <a href="more-movie.html" class=" join-btn"> 更多電影 </a>
+      </div>
+    </div>
+    <a id="buy"> </a>
+    <div class=" box3">
+      <div class="container">
+        <h1> 購買KINOPASS</h1>
+
+
+
+        <div class="place">
+
+          <div class="place-c">
+            <div class="place-c-t">台北 <span>樂聲影城</span> </div>
+            <div class="place-time-box"> <a class="place-time" href="time0901.html">時刻表 </a> <a href="https://goo.gl/maps/7p4fvwtC2R42" target="_blank" class="place-p"> 地圖 </a> </div>
+            <div class="place-c-n yes single"> <a href="step1.html" class="join-btn">購買院線通 </a> </div>
+          </div>
+          <div class="place-c place-sec">
+            <div class="place-c-t">台北 <span>喜樂時代影城</span> </div>
+            <div class="place-time-box"> <a class="place-time" href="time0901.html">時刻表 </a> <a href="https://goo.gl/maps/k2iEbzfryvv" target="_blank" class="place-p"> 地圖 </a> </div>
+            <div class="place-c-n yes single"> <a href="step1.html" class="join-btn">購買院線通 </a> </div>
+          </div>
+          <div class="place-c">
+            <div class="place-c-t">高雄 <span>奧斯卡數位影城</span> </div>
+            <div class="place-time-box"> <a class="place-time" href="time0901.html">時刻表 </a> <a href="https://goo.gl/maps/KT75bMDv8cp" target="_blank" class="place-p"> 地圖 </a></div>
+            <div class="place-c-n yes single"> <a href="step1.html" class="join-btn">購買院線通 </a> </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="box6"> <a id="app"> </a>
+      <div class="container">
+        <h2><img src="images/logo_b_w.png">院線通 app </h2>
+        <p>馬上下載　一票看到底 </p>
+        <a href="" style="margin-bottom:30px;"><img src="images/btn-app-apple.png"></a> <a href=""><img src="images/btn-app-google.png"></a>
+      </div>
+    </div>
+  </div>
+
+  <!--end介紹頁-->
+
+  <footer>
+    <div class="container">
+      <div class="f-left"> <a href="terms.html" class=""> 隱私權政策</a> <a href="terms2.html" class="">服務條款</a>
+        <span> <a href="new-mem_pass.html"> 個人帳戶</a> <a href="faq.html">常見問題</a> <a href="contact.html">連絡我們</a> </span>
+
+      </div>
+      <div class="f-right">Copyright © 2016 KINOPASS All rights reserved.</div>
+    </div>
+  </footer>
+
+  <!--跳出影片-->
+  <div class="modal fade play-tra" id="play" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="btn-close">
+        <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times-circle" aria-hidden="true"></i></button>
+      </div>
+      <iframe width="100%" height="506" src="https://www.youtube.com/embed/1EHm9dI8vlk" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+  <!--end跳出影片-->
+
+  <!--Back to top-->
+  <a href="" class="scrollup"><i class="fa fa-chevron-circle-up"></i></a>
+
+  <!--Javascript Plugin-->
+  <script src="js/totop.js" type="text/javascript"></script>
+  <script src="js/wow.min.js" type="text/javascript"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script src="js/owl.carousel/owl.carousel.min.js" type="text/javascript"></script>
+
+  <!--Owl-carousel Call the plugin-->
+  <script>
+    $(document).ready(function() {
+
+      $('.box4 .owl-carousel').owlCarousel({
+
+        items: 4,
+        margin: 10,
+        nav: true,
+        dots: false,
+        responsive: {
+
+          0: {
+            items: 1,
+            nav: true,
+          },
+
+          1000: {
+
+          },
+        }
+      });
+
+
+      $(".owl-prev").html('<i class="fa fa-chevron-circle-left" aria-hidden="true"></i>');
+      $(".owl-next").html('<i class="fa fa-chevron-circle-right" aria-hidden="true"></i>');
+
+    });
+  </script>
+</body>
+
+</html>

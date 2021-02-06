@@ -1,0 +1,397 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css/sky-forms.css" type="text/css">
+  <link rel="stylesheet" href="js/owl.carousel/assets/owl.carousel.css">
+  <link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <!--跳出訊息-->
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="btn-close">
+          <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></button>
+        </div>
+        <div class="modal-body">
+          <div class=" modal-word">
+            <div class="sign-box-pop">
+              <h4> <span>已有帳號！登入會員</span> </h4>
+              <form id="sky-form" class="sky-form">
+                <fieldset>
+                  <section>
+                    <div class="row">
+                      <label class="label col col-2">帳號</label>
+                      <div class="col col-10">
+                        <label class="input">
+                          <input type="email" name="email" placeholder="請輸入您註冊時Email">
+                        </label>
+                      </div>
+                    </div>
+                  </section>
+                  <section>
+                    <div class="row">
+                      <label class="label col col-2">密碼</label>
+                      <div class="col col-10">
+                        <label class="input">
+                          <input type="password" name="password" placeholder="請輸入密碼" id="password">
+                        </label>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="text-right"> <a href="" target="_blank" class="f-pass"><i class="fa fa-question-circle"></i> 忘記密碼</a> </section>
+                  <section>
+                    <div class="error_msg text-danger"> Default error message </div>
+                  </section>
+                </fieldset>
+                <div class="text-center"> <a href="step2.html" class="btn-b">登入</a> </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--end跳出訊息-->
+
+  <header class="h-normal navbar-fixed-top">
+    <nav class="navbar  " role="navigation">
+      <div class="container"> <a class="navbar-brand" href="index.html"> <img src="images/logo_s.png"> </a>
+
+
+
+        <!--登入後-->
+        <div class="dropdown nn-right"> <a id="" href="#" class="dropdown-toggle btn-top" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false"> Hi 范宇宏 </a>
+          <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="drop3">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="new-mem_pass.html">我的帳戶</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="step1.html">馬上加入</a></li>
+
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html#app">APP下載</a></li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="">登出</a></li>
+          </ul>
+        </div>
+        <!--end登入後-->
+
+      </div>
+    </nav>
+  </header>
+  <div class=" box-more">
+    <div class="container">
+      <h1>強檔獻映</h1>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="fe-movie">
+            <div class="fe-img"> <img src="images/01/main.jpg" width="275" height="405">
+              <div class="fe-play"> <a href="" data-toggle="modal" data-target="#play"> <i class="fa fa-play-circle" aria-hidden="true"></i> </a>
+                <p><a href=""> 影片資訊</a></p>
+              </div>
+            </div>
+            <div class="fe-btn-box">
+              <h2> 銀魂</h2>
+              <p> 上映日期：07/15</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="fe-movie">
+            <div class="fe-img"> <img src="images/02/main.jpg" width="275" height="405">
+              <div class="fe-play"> <a href="" data-toggle="modal" data-target="#play"> <i class="fa fa-play-circle" aria-hidden="true"></i> </a>
+                <p><a href=""> 影片資訊</a></p>
+              </div>
+            </div>
+            <div class="fe-btn-box">
+              <h2> 熔爐</h2>
+              <p> 上映日期：11/11</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="fe-movie">
+            <div class="fe-img"> <img src="images/03/main.jpg" width="275" height="405">
+              <div class="fe-play"> <a href="" data-toggle="modal" data-target="#play"> <i class="fa fa-play-circle" aria-hidden="true"></i> </a>
+                <p><a href=""> 影片資訊</a></p>
+              </div>
+            </div>
+            <div class="fe-btn-box">
+              <h2> 軍艦島</h2>
+              <p> 上映日期：08/18</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="fe-movie">
+            <div class="fe-img"> <img src="images/04/main.jpg" width="275" height="405">
+              <div class="fe-play"> <a href="" data-toggle="modal" data-target="#play"> <i class="fa fa-play-circle" aria-hidden="true"></i> </a>
+                <p><a href=""> 影片資訊</a></p>
+              </div>
+            </div>
+            <div class="fe-btn-box">
+              <h2> 屍速列車</h2>
+              <p> 上映日期：09/02</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="fe-movie">
+            <div class="fe-img"><img src="images/05/main.jpg" width="275" height="405">
+              <div class="fe-play"> <a href="" data-toggle="modal" data-target="#play"> <i class="fa fa-play-circle" aria-hidden="true"></i> </a>
+                <p><a href=""> 影片資訊</a></p>
+              </div>
+            </div>
+            <div class="fe-btn-box">
+              <h2> 我和我的冠軍女兒</h2>
+              <p> 上映日期：03/24</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="fe-movie">
+            <div class="fe-img"> <img src="images/06/main.jpg" width="275" height="405">
+              <div class="fe-play"> <a href="" data-toggle="modal" data-target="#play"> <i class="fa fa-play-circle" aria-hidden="true"></i> </a>
+                <p><a href=""> 影片資訊</a></p>
+              </div>
+            </div>
+            <div class="fe-btn-box">
+              <h2> 我只是個計程車司機</h2>
+              <p> 上映日期：09/08</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="fe-movie">
+            <div class="fe-img"> <img src="images/01/main.jpg" width="275" height="405">
+              <div class="fe-play"> <a href="" data-toggle="modal" data-target="#play"> <i class="fa fa-play-circle" aria-hidden="true"></i> </a>
+                <p><a href=""> 影片資訊</a></p>
+              </div>
+            </div>
+            <div class="fe-btn-box">
+              <h2> 銀魂</h2>
+              <p> 上映日期：07/15</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="fe-movie">
+            <div class="fe-img"> <img src="images/02/main.jpg" width="275" height="405">
+              <div class="fe-play"> <a href="" data-toggle="modal" data-target="#play"> <i class="fa fa-play-circle" aria-hidden="true"></i> </a>
+                <p><a href=""> 影片資訊</a></p>
+              </div>
+            </div>
+            <div class="fe-btn-box">
+              <h2> 熔爐</h2>
+              <p> 上映日期：11/11</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="fe-movie">
+            <div class="fe-img"> <img src="images/03/main.jpg" width="275" height="405">
+              <div class="fe-play"> <a href="" data-toggle="modal" data-target="#play"> <i class="fa fa-play-circle" aria-hidden="true"></i> </a>
+                <p><a href=""> 影片資訊</a></p>
+              </div>
+            </div>
+            <div class="fe-btn-box">
+              <h2> 軍艦島</h2>
+              <p> 上映日期：08/18</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="fe-movie">
+            <div class="fe-img"> <img src="images/04/main.jpg" width="275" height="405">
+              <div class="fe-play"> <a href="" data-toggle="modal" data-target="#play"> <i class="fa fa-play-circle" aria-hidden="true"></i> </a>
+                <p><a href=""> 影片資訊</a></p>
+              </div>
+            </div>
+            <div class="fe-btn-box">
+              <h2> 屍速列車</h2>
+              <p> 上映日期：09/02</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="fe-movie">
+            <div class="fe-img"><img src="images/05/main.jpg" width="275" height="405">
+              <div class="fe-play"> <a href="" data-toggle="modal" data-target="#play"> <i class="fa fa-play-circle" aria-hidden="true"></i> </a>
+                <p><a href=""> 影片資訊</a></p>
+              </div>
+            </div>
+            <div class="fe-btn-box">
+              <h2> 我和我的冠軍女兒</h2>
+              <p> 上映日期：03/24</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="fe-movie">
+            <div class="fe-img"> <img src="images/06/main.jpg" width="275" height="405">
+              <div class="fe-play"> <a href="" data-toggle="modal" data-target="#play"> <i class="fa fa-play-circle" aria-hidden="true"></i> </a>
+                <p><a href=""> 影片資訊</a></p>
+              </div>
+            </div>
+            <div class="fe-btn-box">
+              <h2> 我只是個計程車司機</h2>
+              <p> 上映日期：09/08</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="f-left"> <a href="terms.html" class=""> 隱私權政策</a> <a href="terms2.html" class="">服務條款</a>
+        <span> <a href="new-mem_pass.html"> 個人帳戶</a> <a href="faq.html">常見問題</a> <a href="contact.html">連絡我們</a> </span>
+
+      </div>
+      <div class="f-right">Copyright © 2016 KINOPASS All rights reserved.</div>
+    </div>
+  </footer>
+
+  <!--跳出影片-->
+  <div class="modal fade play-tra" id="play" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="btn-close">
+        <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times-circle" aria-hidden="true"></i></button>
+      </div>
+      <iframe width="95%" height="300" src="https://www.youtube.com/embed/1EHm9dI8vlk" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+  <!--end跳出影片-->
+
+  <!--Back to top-->
+  <a href="" class="scrollup"><i class="fa fa-chevron-circle-up"></i></a>
+
+  <!--Javascript Plugin-->
+  <script src="js/totop.js" type="text/javascript"></script>
+  <script src="js/owl.carousel/owl.carousel.min.js" type="text/javascript"></script>
+
+  <!--Owl-carousel Call the plugin-->
+  <script>
+    $(document).ready(function() {
+      $('#owl1').owlCarousel({
+        items: 1,
+        animateOut: 'fadeOut',
+        //animateIn: 'fadeIn',
+        loop: false,
+        center: true,
+
+        touchDrag: false,
+        mouseDrag: false,
+
+
+
+        margin: 10,
+        URLhashListener: true,
+        autoplayHoverPause: true,
+        autoHeight: true,
+        startPosition: 'URLHash'
+
+
+      });
+
+    });
+  </script>
+  <script>
+    $(document).ready(function() {
+      $('#owl3').owlCarousel({
+        items: 7,
+        responsiveClass: true,
+
+
+        responsive: {
+
+
+
+          310: {
+            items: 5,
+
+
+          },
+
+          400: {
+            items: 7,
+
+
+          },
+
+
+          1000: {
+            items: 7,
+
+
+          }
+        }
+
+
+
+
+
+      });
+
+    });
+  </script>
+  <script>
+    $(document).ready(function() {
+      $('#owl2').owlCarousel({
+
+
+        loop: true,
+        stopOnHover: true,
+
+        autoplay: 5000,
+        smartSpeed: 500,
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+
+          },
+          600: {
+            items: 4,
+
+          },
+          1500: {
+            items: 5,
+
+            loop: false
+          },
+
+
+          1900: {
+            items: 6,
+
+            loop: false
+          }
+        }
+
+
+
+      });
+      $(".owl-prev").html('<i class="fa fa-chevron-left fa-2x"></i>');
+      $(".owl-next").html('<i class="fa fa-chevron-right fa-2x"></i>');
+
+    });
+  </script>
+</body>
+
+</html>

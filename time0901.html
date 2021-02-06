@@ -1,0 +1,1238 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css/sky-forms.css" type="text/css">
+  <link rel="stylesheet" href="js/owl.carousel/assets/owl.carousel.css">
+  <link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+  <link rel="stylesheet" href="css/style.css?0901" type="text/css">
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <!--跳出訊息-->
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="btn-close">
+          <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i></button>
+        </div>
+        <div class="modal-body">
+          <div class=" modal-word">
+            <div class="sign-box-pop">
+              <h4> <span>已有帳號！登入會員</span> </h4>
+              <form id="sky-form" class="sky-form">
+                <fieldset>
+                  <section>
+                    <div class="row">
+                      <label class="label col col-2">帳號</label>
+                      <div class="col col-10">
+                        <label class="input">
+                          <input type="email" name="email" placeholder="請輸入您註冊時Email">
+                        </label>
+                      </div>
+                    </div>
+                  </section>
+                  <section>
+                    <div class="row">
+                      <label class="label col col-2">密碼</label>
+                      <div class="col col-10">
+                        <label class="input">
+                          <input type="password" name="password" placeholder="請輸入密碼" id="password">
+                        </label>
+                      </div>
+                    </div>
+                  </section>
+                  <section class="text-right"> <a href="" target="_blank" class="f-pass"><i class="fa fa-question-circle"></i> 忘記密碼</a> </section>
+                  <section>
+                    <div class="error_msg text-danger"> Default error message </div>
+                  </section>
+                </fieldset>
+                <div class="text-center"> <a href="step2.html" class="btn-b">登入</a> </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--end跳出訊息-->
+
+  <header class="h-normal navbar-fixed-top">
+    <nav class="navbar  " role="navigation">
+      <div class="container"><a class="navbar-brand" href="index.html"> <img src="images/logo_s.png"> </a>
+
+
+
+        <!--登入後-->
+        <div class="dropdown nn-right"> <a id="" href="#" class="dropdown-toggle btn-top" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false"> Hi 范宇宏 </a>
+          <ul class="dropdown-menu dropdown-menu-right" role="menu" aria-labelledby="drop3">
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="new-mem_pass.html">我的帳戶</a></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="step1.html">馬上加入</a></li>
+
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html#app">APP下載</a></li>
+            <li role="presentation" class="divider"></li>
+            <li role="presentation"><a role="menuitem" tabindex="-1" href="">登出</a></li>
+          </ul>
+        </div>
+        <!--end登入後-->
+
+      </div>
+    </nav>
+  </header>
+  <div class="new-wrapper">
+    <!--時間切換-->
+
+    <div class=" time-box-2 new-top">
+      <div class="container">
+        <div class="row">
+
+          <!--選方案-->
+          <div class="col-md-5">
+            <form class="sky-form">
+              <section class="clearfix">
+                <label class="select op">
+                  <select name="">
+                    <option value="1">台北 樂聲影城</option>
+                    <option value="2">高雄 奧斯卡數位影城</option>
+                    <option value="3">台北 喜樂影城</option>
+                  </select>
+                  <i></i> </label>
+              </section>
+            </form>
+          </div>
+          <!--end選方案-->
+
+          <div class="col-md-7">
+            <div class="cd2-box">
+              <div class="owl-carousel">
+                <div class="item"> <a href="#one">
+                    <div class="cd2_main red" data-date="2016-10-04">
+                      <month>10</month>
+                      <line>/</line>
+                      <week>(二)</week>
+                      <day>04</day>
+                    </div>
+                  </a> </div>
+                <div class="item"> <a href="#two">
+                    <div class="cd2_main " data-date="2016-10-05">
+                      <month>10</month>
+                      <line>/</line>
+                      <week>(三)</week>
+                      <day>05</day>
+                    </div>
+                  </a> </div>
+                <div class="item"> <a href="#three">
+                    <div class="cd2_main " data-date="2016-10-06">
+                      <month>10</month>
+                      <line>/</line>
+                      <week>(四)</week>
+                      <day>06</day>
+                    </div>
+                  </a> </div>
+                <div class="item"> <a href="#four">
+                    <div class="cd2_main " data-date="2016-10-06">
+                      <month>10</month>
+                      <line>/</line>
+                      <week>(五)</week>
+                      <day>07</day>
+                    </div>
+                  </a> </div>
+                <div class="item"> <a href="#five">
+                    <div class="cd2_main " data-date="2016-10-06">
+                      <month>10</month>
+                      <line>/</line>
+                      <week>(六)</week>
+                      <day>08</day>
+                    </div>
+                  </a> </div>
+                <div class="item"> <a href="#six">
+                    <div class="cd2_main " data-date="2016-10-06">
+                      <month>10</month>
+                      <line>/</line>
+                      <week>(日)</week>
+                      <day>09</day>
+                    </div>
+                  </a> </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--end時間切換-->
+
+    <div class=" m-o-box">
+      <!--h1> 線上劃位，請選擇電影、場次 </h1-->
+      <div class="owl-carousel">
+        <div class="item" data-hash="one">
+          <div class="container">
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/01/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2> 銀魂 </h2>
+                  <p> 日本漫畫龍頭雜誌《Jump》人氣連載13年，漫畫累計銷售5100萬本,網路爆紅惡搞短劇《勇者義彥》電視版系列、電影《瘋狂假面》導演福田雄一眾望所歸搞笑出擊,小栗旬、柳樂優彌、北乃紀伊 眾星集體秀下限，劇情和超辣仙貝一樣超燃催淚！粉絲盛讚「打鬥戲帥得一塌糊塗」。</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>高雄</span>奧斯卡數位影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/02/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>熔爐 </h2>
+                  <p> 《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕，改編自作家孔枝泳同名小說，令人痛心的真人實事。蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄， 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年。</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/03/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>軍艦島 </h2>
+                  <p> 快要無法呼吸的我們，如何找回在海彼端的返家之路？
+                    戰亂紛擾的那個年代，高薪誘惑下，爵士樂隊隊長李姜宇（黃晸玟 飾）帶著獨生女昭熙（金秀晏 飾）前往日本端島上的飯店工作，抱著新生活夢想的還有流氓打手崔七星（蘇志燮 飾）、莫妍（李貞賢 飾）。可一上岸全都變了樣，開始暗無天日的奴役生活。</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/04/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>屍速列車 </h2>
+                  <p> 從首爾到釜山的442公里，在極速飛馳的高速鐵路之上，絕望的人們是否能夠重拾希望，曾經迷失的單親爸爸碩宇是否能夠找到心的方向，守護愛女活命抵達安全的地方？</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/05/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>我和我的冠軍女兒 </h2>
+                  <p> ★《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕
+                    ★ 改編自作家孔枝泳同名小說，令人痛心的真人實事
+
+                    ★ 蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄
+
+                    ★ 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/06/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>我只是個計程車司機 </h2>
+                  <p> ★《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕
+                    ★ 改編自作家孔枝泳同名小說，令人痛心的真人實事
+
+                    ★ 蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄
+
+                    ★ 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="item" data-hash="two">
+          <div class="container">
+
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/02/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>熔爐 </h2>
+                  <p> 《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕，改編自作家孔枝泳同名小說，令人痛心的真人實事。蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄， 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年。</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/03/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>軍艦島 </h2>
+                  <p> 快要無法呼吸的我們，如何找回在海彼端的返家之路？
+                    戰亂紛擾的那個年代，高薪誘惑下，爵士樂隊隊長李姜宇（黃晸玟 飾）帶著獨生女昭熙（金秀晏 飾）前往日本端島上的飯店工作，抱著新生活夢想的還有流氓打手崔七星（蘇志燮 飾）、莫妍（李貞賢 飾）。可一上岸全都變了樣，開始暗無天日的奴役生活。</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/04/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>屍速列車 </h2>
+                  <p> 從首爾到釜山的442公里，在極速飛馳的高速鐵路之上，絕望的人們是否能夠重拾希望，曾經迷失的單親爸爸碩宇是否能夠找到心的方向，守護愛女活命抵達安全的地方？</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/05/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>我和我的冠軍女兒 </h2>
+                  <p> ★《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕
+                    ★ 改編自作家孔枝泳同名小說，令人痛心的真人實事
+
+                    ★ 蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄
+
+                    ★ 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/06/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>我只是個計程車司機 </h2>
+                  <p> ★《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕
+                    ★ 改編自作家孔枝泳同名小說，令人痛心的真人實事
+
+                    ★ 蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄
+
+                    ★ 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/01/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2> 銀魂 </h2>
+                  <p> 日本漫畫龍頭雜誌《Jump》人氣連載13年，漫畫累計銷售5100萬本,網路爆紅惡搞短劇《勇者義彥》電視版系列、電影《瘋狂假面》導演福田雄一眾望所歸搞笑出擊,小栗旬、柳樂優彌、北乃紀伊 眾星集體秀下限，劇情和超辣仙貝一樣超燃催淚！粉絲盛讚「打鬥戲帥得一塌糊塗」。</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>高雄</span>奧斯卡數位影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="item" data-hash="three">
+          <div class="container">
+
+
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/03/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>軍艦島 </h2>
+                  <p> 快要無法呼吸的我們，如何找回在海彼端的返家之路？
+                    戰亂紛擾的那個年代，高薪誘惑下，爵士樂隊隊長李姜宇（黃晸玟 飾）帶著獨生女昭熙（金秀晏 飾）前往日本端島上的飯店工作，抱著新生活夢想的還有流氓打手崔七星（蘇志燮 飾）、莫妍（李貞賢 飾）。可一上岸全都變了樣，開始暗無天日的奴役生活。</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/04/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>屍速列車 </h2>
+                  <p> 從首爾到釜山的442公里，在極速飛馳的高速鐵路之上，絕望的人們是否能夠重拾希望，曾經迷失的單親爸爸碩宇是否能夠找到心的方向，守護愛女活命抵達安全的地方？</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/05/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>我和我的冠軍女兒 </h2>
+                  <p> ★《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕
+                    ★ 改編自作家孔枝泳同名小說，令人痛心的真人實事
+
+                    ★ 蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄
+
+                    ★ 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/06/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>我只是個計程車司機 </h2>
+                  <p> ★《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕
+                    ★ 改編自作家孔枝泳同名小說，令人痛心的真人實事
+
+                    ★ 蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄
+
+                    ★ 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/01/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2> 銀魂 </h2>
+                  <p> 日本漫畫龍頭雜誌《Jump》人氣連載13年，漫畫累計銷售5100萬本,網路爆紅惡搞短劇《勇者義彥》電視版系列、電影《瘋狂假面》導演福田雄一眾望所歸搞笑出擊,小栗旬、柳樂優彌、北乃紀伊 眾星集體秀下限，劇情和超辣仙貝一樣超燃催淚！粉絲盛讚「打鬥戲帥得一塌糊塗」。</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>高雄</span>奧斯卡數位影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/02/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>熔爐 </h2>
+                  <p> 《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕，改編自作家孔枝泳同名小說，令人痛心的真人實事。蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄， 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年。</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="item" data-hash="four">
+          <div class="container">
+
+
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/04/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>屍速列車 </h2>
+                  <p> 從首爾到釜山的442公里，在極速飛馳的高速鐵路之上，絕望的人們是否能夠重拾希望，曾經迷失的單親爸爸碩宇是否能夠找到心的方向，守護愛女活命抵達安全的地方？</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/05/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>我和我的冠軍女兒 </h2>
+                  <p> ★《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕
+                    ★ 改編自作家孔枝泳同名小說，令人痛心的真人實事
+
+                    ★ 蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄
+
+                    ★ 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/06/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>我只是個計程車司機 </h2>
+                  <p> ★《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕
+                    ★ 改編自作家孔枝泳同名小說，令人痛心的真人實事
+
+                    ★ 蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄
+
+                    ★ 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/01/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2> 銀魂 </h2>
+                  <p> 日本漫畫龍頭雜誌《Jump》人氣連載13年，漫畫累計銷售5100萬本,網路爆紅惡搞短劇《勇者義彥》電視版系列、電影《瘋狂假面》導演福田雄一眾望所歸搞笑出擊,小栗旬、柳樂優彌、北乃紀伊 眾星集體秀下限，劇情和超辣仙貝一樣超燃催淚！粉絲盛讚「打鬥戲帥得一塌糊塗」。</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>高雄</span>奧斯卡數位影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/02/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>熔爐 </h2>
+                  <p> 《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕，改編自作家孔枝泳同名小說，令人痛心的真人實事。蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄， 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年。</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/03/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>軍艦島 </h2>
+                  <p> 快要無法呼吸的我們，如何找回在海彼端的返家之路？
+                    戰亂紛擾的那個年代，高薪誘惑下，爵士樂隊隊長李姜宇（黃晸玟 飾）帶著獨生女昭熙（金秀晏 飾）前往日本端島上的飯店工作，抱著新生活夢想的還有流氓打手崔七星（蘇志燮 飾）、莫妍（李貞賢 飾）。可一上岸全都變了樣，開始暗無天日的奴役生活。</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+
+        <div class="item" data-hash="five">
+          <div class="container">
+
+
+
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/05/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>我和我的冠軍女兒 </h2>
+                  <p> ★《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕
+                    ★ 改編自作家孔枝泳同名小說，令人痛心的真人實事
+
+                    ★ 蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄
+
+                    ★ 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/06/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>我只是個計程車司機 </h2>
+                  <p> ★《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕
+                    ★ 改編自作家孔枝泳同名小說，令人痛心的真人實事
+
+                    ★ 蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄
+
+                    ★ 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/01/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2> 銀魂 </h2>
+                  <p> 日本漫畫龍頭雜誌《Jump》人氣連載13年，漫畫累計銷售5100萬本,網路爆紅惡搞短劇《勇者義彥》電視版系列、電影《瘋狂假面》導演福田雄一眾望所歸搞笑出擊,小栗旬、柳樂優彌、北乃紀伊 眾星集體秀下限，劇情和超辣仙貝一樣超燃催淚！粉絲盛讚「打鬥戲帥得一塌糊塗」。</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>高雄</span>奧斯卡數位影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/02/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>熔爐 </h2>
+                  <p> 《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕，改編自作家孔枝泳同名小說，令人痛心的真人實事。蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄， 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年。</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/03/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>軍艦島 </h2>
+                  <p> 快要無法呼吸的我們，如何找回在海彼端的返家之路？
+                    戰亂紛擾的那個年代，高薪誘惑下，爵士樂隊隊長李姜宇（黃晸玟 飾）帶著獨生女昭熙（金秀晏 飾）前往日本端島上的飯店工作，抱著新生活夢想的還有流氓打手崔七星（蘇志燮 飾）、莫妍（李貞賢 飾）。可一上岸全都變了樣，開始暗無天日的奴役生活。</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/04/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>屍速列車 </h2>
+                  <p> 從首爾到釜山的442公里，在極速飛馳的高速鐵路之上，絕望的人們是否能夠重拾希望，曾經迷失的單親爸爸碩宇是否能夠找到心的方向，守護愛女活命抵達安全的地方？</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+
+        <div class="item" data-hash="six">
+          <div class="container">
+
+
+
+
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/06/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>我只是個計程車司機 </h2>
+                  <p> ★《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕
+                    ★ 改編自作家孔枝泳同名小說，令人痛心的真人實事
+
+                    ★ 蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄
+
+                    ★ 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/01/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2> 銀魂 </h2>
+                  <p> 日本漫畫龍頭雜誌《Jump》人氣連載13年，漫畫累計銷售5100萬本,網路爆紅惡搞短劇《勇者義彥》電視版系列、電影《瘋狂假面》導演福田雄一眾望所歸搞笑出擊,小栗旬、柳樂優彌、北乃紀伊 眾星集體秀下限，劇情和超辣仙貝一樣超燃催淚！粉絲盛讚「打鬥戲帥得一塌糊塗」。</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>高雄</span>奧斯卡數位影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/02/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>熔爐 </h2>
+                  <p> 《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕，改編自作家孔枝泳同名小說，令人痛心的真人實事。蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄， 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年。</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/03/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>軍艦島 </h2>
+                  <p> 快要無法呼吸的我們，如何找回在海彼端的返家之路？
+                    戰亂紛擾的那個年代，高薪誘惑下，爵士樂隊隊長李姜宇（黃晸玟 飾）帶著獨生女昭熙（金秀晏 飾）前往日本端島上的飯店工作，抱著新生活夢想的還有流氓打手崔七星（蘇志燮 飾）、莫妍（李貞賢 飾）。可一上岸全都變了樣，開始暗無天日的奴役生活。</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/04/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>屍速列車 </h2>
+                  <p> 從首爾到釜山的442公里，在極速飛馳的高速鐵路之上，絕望的人們是否能夠重拾希望，曾經迷失的單親爸爸碩宇是否能夠找到心的方向，守護愛女活命抵達安全的地方？</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="m-o">
+              <div class="row">
+                <div class="col-md-3"> <a href="content2.html"> <img src="images/05/main.jpg" width="275" height="405"> </a></div>
+                <div class="col-md-9 m-r">
+                  <h2>我和我的冠軍女兒 </h2>
+                  <p> ★《屍速列車》孔劉 演技經典代表作，終於登陸台灣大銀幕
+                    ★ 改編自作家孔枝泳同名小說，令人痛心的真人實事
+
+                    ★ 蟬聯三周票房冠軍，寫下最快達成300萬觀影人次的限制級電影紀錄
+
+                    ★ 一部改變社會的電影，引發社會輿論不斷，促使韓國成立專案小組重審，修正性侵害防治法量刑標準，而本案真實加害者之一，於三審逆轉緩刑判決，改監禁12年</p>
+                  <div class="text-right"> <a href="content2.html" class="m-more">觀看詳細介紹</a> </div>
+                  <h3>可訂位場次</h3>
+                  <div class="theater-row">
+                    <div class="theater"><span>台北</span>樂聲影城 </div>
+                    <a href="">
+                      <div class="booking">12:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 15:00 </div>
+                    </a> <a href="">
+                      <div class="booking"> 16:30 </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="f-left"> <a href="terms.html" class=""> 隱私權政策</a> <a href="terms2.html" class="">服務條款</a>
+        <span> <a href="new-mem_pass.html"> 個人帳戶</a> <a href="faq.html">常見問題</a> <a href="contact.html">連絡我們</a> </span>
+
+      </div>
+      <div class="f-right">Copyright © 2016 KINOPASS All rights reserved.</div>
+    </div>
+  </footer>
+
+  <!--Back to top-->
+  <a href="" class="scrollup"><i class="fa fa-chevron-circle-up"></i></a>
+
+  <!--Javascript Plugin-->
+  <script src="js/totop.js" type="text/javascript"></script>
+  <script src="js/owl.carousel/owl.carousel.min.js" type="text/javascript"></script>
+
+  <!--Owl-carousel Call the plugin-->
+  <script>
+    jQuery(window).on('load', function() {
+      $('.m-o-box .owl-carousel').owlCarousel({
+        items: 1,
+        //	animateOut: 'fadeOut',
+        //	animateIn: 'fadeIn',
+
+        autoHeight: true,
+        loop: false,
+        center: true,
+        touchDrag: false,
+        mouseDrag: false,
+        margin: 10,
+        URLhashListener: true,
+        autoplayHoverPause: true,
+        smartSpeed: 1000,
+
+        startPosition: 'URLHash'
+      });
+      $('.time-box-2 .owl-carousel').owlCarousel({
+        items: 6,
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+          310: {
+            items: 3,
+            margin: 10,
+          },
+          360: {
+            items: 3,
+            margin: 30,
+          },
+
+
+          400: {
+            items: 4,
+            margin: 10,
+          },
+          1000: {
+            items: 6,
+          }
+        }
+
+      });
+    });
+  </script>
+
+  <script>
+    $(function() {
+
+
+
+      $(".cd2_main").click(function() {
+
+        $(".cd2_main").removeClass("red");
+        $(this).addClass("red");
+
+      });
+
+
+
+
+    });
+  </script>
+
+</body>
+
+</html>
